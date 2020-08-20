@@ -116,9 +116,9 @@
    $mail->Host ='smtp.gmail.com';
    $mail->Port ='587';
    $mail->isHTML(true);
-   $mail->Username ='shivangikochrekar01@gmail.com';
-   $mail->Password= 'letmehelpyou01';
-   $mail->SetFrom('rishitamote@gmail.com');
+   $mail->Username ='';
+   $mail->Password= '';
+   $mail->SetFrom('');
 
 	if (isset($_POST['validate_button'])  and isset($_SESSION['id'])) {
     	//validate action
